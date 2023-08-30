@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    background-color: lightgrey;
+}
+
+@font-face {
+    font-family: siuu;
+    src: url(../fonts/digital-7.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+#main-content {
+    width: 250px;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: lightblue;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+#screen {
+    width: 218px;
+    height: 70px;
+    border: 3px solid black;
+    border-radius: 3px;
+    background-color: white;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    box-sizing: border-box;
+}
+
+.row button {
+    width: 50px;
+    height: 50px;
+    margin: 2px 2px 2px 0px;
+    border-radius: 3px;
+}
+
+.row button#ac {
+    width: 106px;
+    background-color: pink;
+}
+
+.row button:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+#display {
+    max-width: 218px;
+    max-height: 70px;
+    font-family: siuu;
+    overflow: auto;
+    display:block;
+    font-size: 45px;
+    line-height: 50px;
+    text-align: right;
+}
